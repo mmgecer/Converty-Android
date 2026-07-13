@@ -58,6 +58,7 @@ Bu dosya projenin kalıcı ana devretme belgesidir. **Bu projede çalışan her 
 - Kökte standart Apache-2.0 `LICENSE` vardır; release bağımlılık taramasında yalnız FLOSS AndroidX/Kotlin/kotlinx/Okio/Guava-listenablefuture/annotation aileleri bulundu, reklam/analytics/Firebase/GMS ve `INTERNET` izni yoktur. Kaynak GitHub'da Apache-2.0 olarak yayımlanabilir.
 - Ana F-Droid deposu için henüz hazır değildir. En kritik engel, `com.converty.app` kimliğinin Google Play'deki ilgisiz bir Converty uygulamasıyla çakışmasıdır. Ayrıca public Git remote/tag, fastlane + fdroiddata metadata, HEIC/AVIF test fixture provenance/scandelete kararı ve temiz Linux/F-Droid build/scanner kanıtı gerekir. Ayrıntı `HANDOFF/07-PUBLISHING.md` içindedir.
 - Yerel `main` başlangıç commit'i `22f3990` oluşturuldu. GitHub'daki önceki `2ec3ebe` başlangıç commit'i silinmeden `8c9b016` merge commit'iyle geçmişe bağlandı ve tam kaynak `origin/main` dalına push edildi. Henüz `v0.1.0` etiketi oluşturulmadı.
+- Sekiz README'de genel amaçlı üretim fiilinin kullanıcı tarafından yasaklanan İngilizce/Türkçe ve yerelleştirilmiş karşılıkları kaldırıldı. Bundan sonra bağlama göre “generate”, “produce”, “add”, “prepare”, “configure” gibi kesin fiiller ve her dildeki doğal karşılıkları kullanılmalıdır.
 
 ## Hızlı başlangıç — sonraki yapay zekâ
 

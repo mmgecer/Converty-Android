@@ -114,8 +114,8 @@ L'arborescence source est prête à être publiée sur GitHub sous Apache Licens
 
 L'APK signé actuel doit être considéré comme un candidat release local, et non comme un paquet prêt pour F-Droid. Les éléments suivants restent à terminer avant une soumission F-Droid ou une publication publique permanente du paquet :
 
-1. Remplacer `com.converty.app` par un identifiant d'application permanent et unique au niveau mondial. Cet identifiant est déjà utilisé par une application sans rapport avec Converty ; le publier en l'état créerait donc une collision d'identité.
-2. La branche publique `main` est publiée sur [GitHub](https://github.com/mmgecer/Converty-Android). Il reste à créer et pousser le tag `v0.1.0` correspondant exactement au code source soumis.
+1. Remplacer `com.converty.app` par un identifiant d'application permanent et unique au niveau mondial. Cet identifiant est déjà utilisé par une application sans rapport avec Converty ; le publier en l'état provoquerait donc une collision d'identité.
+2. La branche publique `main` est publiée sur [GitHub](https://github.com/mmgecer/Converty-Android). Il reste à définir et pousser le tag `v0.1.0` correspondant exactement au code source soumis.
 3. Ajouter les métadonnées de build F-Droid, notamment la correspondance des versions et une recette de build entièrement fondée sur le code source.
 4. Recompiler depuis un checkout Linux propre dans un environnement proche de F-Droid et réussir les vérifications du scanner F-Droid et de reproductibilité.
 5. Achever la revue finale des ressources et des licences de dépendances, puis ajouter les mentions ou attributions qu'elle identifie.

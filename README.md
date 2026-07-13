@@ -101,7 +101,7 @@ The interface uses Material 3 Expressive components, motion, tonal color, and ad
 
 ## Known limitations
 
-- PDF-to-PPTX creates image-based slides. Text and page objects are not reconstructed as editable PowerPoint elements.
+- PDF-to-PPTX produces image-based slides. Text and page objects are not reconstructed as editable PowerPoint elements.
 - PPTX-to-PDF is not a replacement for Microsoft PowerPoint, LibreOffice, or a full OOXML rendering engine. SmartArt, charts, tables, grouped objects, media, animations, complex themes, master-layout behavior, font substitution, and advanced effects may be incomplete or unsupported.
 - DOCX, XLSX, ODT, ODS, and ODP conversion supports a limited on-device rendering model. Complex documents may not preserve exact pagination or visual layout.
 - Password-protected, encrypted, malformed, exceptionally large, or hostile documents may be rejected.
@@ -162,8 +162,8 @@ The source tree is prepared for publication on GitHub under the Apache License 2
 
 The current signed APK should be treated as a local release candidate, not as an F-Droid-ready package. The following work remains before an F-Droid submission or a permanent public package release:
 
-1. Replace `com.converty.app` with a permanent, globally unique application ID. That ID is already used by an unrelated application, so publishing with it creates an identity collision.
-2. The public `main` branch is published at [GitHub](https://github.com/mmgecer/Converty-Android). Create and push the `v0.1.0` tag that exactly matches the submitted source.
+1. Replace `com.converty.app` with a permanent, globally unique application ID. That ID is already used by an unrelated application, so publishing with it causes an identity collision.
+2. The public `main` branch is published at [GitHub](https://github.com/mmgecer/Converty-Android). Add and push the `v0.1.0` tag that exactly matches the submitted source.
 3. Add F-Droid build metadata, including the version mapping and an entirely source-based build recipe.
 4. Rebuild from a clean Linux checkout in an F-Droid-like environment and pass the F-Droid scanner and reproducibility checks.
 5. Complete the final asset and dependency-license review and add any notices or attributions that the review identifies.

@@ -68,6 +68,7 @@ Resmî referanslar: GitHub Docs “Licensing a repository”; F-Droid “Inclusi
 
 - README'ye özellik eklemeden önce Codebase Memory ile gerçek sınıf/yön bulunmalı; format iddiası yalnız UI metnine dayanarak eklenmemelidir.
 - İngilizce README canonical içeriktir fakat aynı değişiklikte diğer yedi dil de güncellenmelidir.
+- README metninde genel amaçlı üretim fiilinin kullanıcı tarafından yasaklanan İngilizce/Türkçe veya yerelleştirilmiş doğrudan karşılıkları kullanılmaz; bağlama özgü üretme, ekleme, hazırlama, yapılandırma ve sonuca yol açma fiilleri seçilir.
 - Dil navigasyonunda dosya adları değiştirilirse sekiz dosyanın tüm bağlantıları otomatik kontrol edilmelidir.
 - Sekiz README Apache-2.0/signing durumuyla eş tutulmalı; applicationId ve diğer blocker'lar çözülmeden “F-Droid'e hazır” denmemelidir.
 - Signing key, applicationId, versionName/versionCode veya store durumu değiştiğinde `HANDOFF-INDEX.md`, bu belge ve `06-VERIFICATION-ROADMAP.md` birlikte güncellenmelidir.

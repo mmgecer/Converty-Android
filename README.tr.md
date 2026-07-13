@@ -144,7 +144,7 @@ Kaynak ağacı Apache License 2.0 kapsamında GitHub'da yayımlanmaya hazırlanm
 Mevcut imzalı APK, F-Droid'e hazır paket değil yerel release adayı olarak görülmelidir. F-Droid başvurusu veya kalıcı kamu paketi yayını öncesinde şu işler tamamlanmalıdır:
 
 1. `com.converty.app`, kalıcı ve dünya çapında benzersiz bir application ID ile değiştirilmelidir. Bu kimlik ilgisiz başka bir uygulama tarafından zaten kullanıldığı için mevcut haliyle yayınlamak kimlik çakışmasına yol açar.
-2. Herkese açık `main` dalı [GitHub'da](https://github.com/mmgecer/Converty-Android) yayımlanmıştır. Gönderilen kaynakla birebir eşleşen `v0.1.0` tag'i oluşturulup push edilmelidir.
+2. Herkese açık `main` dalı [GitHub'da](https://github.com/mmgecer/Converty-Android) yayımlanmıştır. Gönderilen kaynakla birebir eşleşen `v0.1.0` tag'i tanımlanıp push edilmelidir.
 3. Sürüm eşlemesi ve tamamen kaynaktan derleme tarifi dahil F-Droid build metadatası eklenmelidir.
 4. Temiz bir Linux checkout'undan F-Droid benzeri ortamda yeniden derleme yapılmalı; F-Droid scanner ve reproducibility kontrolleri geçilmelidir.
 5. Varlıkların ve bağımlılık lisanslarının son incelemesi tamamlanmalı; gerekli olduğu belirlenen bildirim ve atıflar eklenmelidir.

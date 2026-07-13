@@ -115,7 +115,7 @@ Production 签名通过本地 `key.properties` 和专用 release keystore 配置
 当前已签名 APK 应视为本地 release 候选版本，而不是已满足 F-Droid 要求的软件包。在提交 F-Droid 或永久公开发布该软件包之前，仍需完成以下工作：
 
 1. 将 `com.converty.app` 替换为永久且全球唯一的应用 ID。该 ID 已被一个无关应用使用，按现状发布会造成应用身份冲突。
-2. 公开 `main` 分支已发布到 [GitHub](https://github.com/mmgecer/Converty-Android)。仍需创建并 push 与提交源码完全一致的 `v0.1.0` tag。
+2. 公开 `main` 分支已发布到 [GitHub](https://github.com/mmgecer/Converty-Android)。仍需添加并 push 与提交源码完全一致的 `v0.1.0` tag。
 3. 添加 F-Droid 构建元数据，包括版本映射和完全从源码构建的配方。
 4. 从干净的 Linux checkout 在类似 F-Droid 的环境中重新构建，并通过 F-Droid scanner 与可复现性检查。
 5. 完成资源与依赖许可证的最终审查，并补充审查确认需要的声明或署名。

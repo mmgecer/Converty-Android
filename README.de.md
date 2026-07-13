@@ -110,7 +110,7 @@ Der Quellbaum ist für die Veröffentlichung auf GitHub unter der Apache License
 Die aktuelle signierte APK ist als lokaler Release-Kandidat zu betrachten, nicht als F-Droid-fertiges Paket. Vor einer F-Droid-Einreichung oder einer dauerhaften öffentlichen Paketveröffentlichung bleiben folgende Punkte offen:
 
 1. `com.converty.app` muss durch eine dauerhafte, weltweit eindeutige Anwendungs-ID ersetzt werden. Diese ID wird bereits von einer nicht verbundenen Anwendung verwendet und würde deshalb eine Identitätskollision verursachen.
-2. Der öffentliche `main`-Branch ist auf [GitHub](https://github.com/mmgecer/Converty-Android) veröffentlicht. Der Tag `v0.1.0`, der exakt dem eingereichten Quellstand entspricht, muss noch erstellt und gepusht werden.
+2. Der öffentliche `main`-Branch ist auf [GitHub](https://github.com/mmgecer/Converty-Android) veröffentlicht. Der Tag `v0.1.0`, der exakt dem eingereichten Quellstand entspricht, muss noch gesetzt und gepusht werden.
 3. F-Droid-Build-Metadaten mit Versionszuordnung und einer vollständig quellbasierten Build-Anleitung müssen hinzugefügt werden.
 4. Der Build muss aus einem sauberen Linux-Checkout in einer F-Droid-ähnlichen Umgebung wiederholt werden und die F-Droid-Scanner- und Reproduzierbarkeitsprüfungen bestehen.
 5. Die abschließende Prüfung der Assets und Abhängigkeitslizenzen muss abgeschlossen und dabei ermittelte Hinweise oder Namensnennungen müssen ergänzt werden.

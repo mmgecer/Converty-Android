@@ -104,7 +104,7 @@
 
 - **Karar:** WorkRequest input yalnız `jobId` taşır; URI, item, seçenek ve çıktı durumu Room'un tek doğruluk kaynağıdır. Job başına unique work normalde KEEP, açık retry'da REPLACE kullanır.
 - **Neden:** WorkManager Data boyut/snapshot eskimesi riskini kaldırmak, süreç ölümünden sonra aynı kalıcı iş modelinden devam etmek ve çift enqueue'yu önlemek.
-- **Bug önleme:** Seçim totalUnits null iken fail edilmez; motor `inspect` ile gerçek sayfa/slayt sayısını bulup Room'a yazar, selection bundan sonra çözülür. Worker'ın yarattığı yarım SAF hedefi hata/iptalde temizlenir.
+- **Bug önleme:** Seçim totalUnits null iken fail edilmez; motor `inspect` ile gerçek sayfa/slayt sayısını bulup Room'a yazar, selection bundan sonra çözülür. Worker'ın ürettiği yarım SAF hedefi hata/iptalde temizlenir.
 - **Doğrulama:** Foreground data-sync manifest merge `BUILD SUCCESSFUL`; Kotlin compile worker katmanını geçti ve o anda tamamlanmamış UI sembollerinde durdu.
 
 ## 2026-07-13 — M3E uygulama akışı ve SAF kullanıcı arayüzü
@@ -204,3 +204,9 @@
 - **GitHub birleştirmesi:** Public repo `https://github.com/mmgecer/Converty-Android.git` ve uzak `main` commit'i `2ec3ebe` salt okunur doğrulandı. Uzak başlangıç commit'i silinmedi; local `22f3990` ile `8c9b016` merge commit'inde birleştirilip `origin/main` dalına fast-forward push edildi.
 - **Kimlik doğrulama:** İlk push Windows'taki yanlış `SirCrownguard` hesabıyla 403 aldı; hiçbir remote değişiklik oluşmadı. Git Credential Manager cihaz akışıyla `mmgecer` yetkilendirildi ve ikinci push başarılı oldu. Token/parola hiçbir çıktıya veya dosyaya yazılmadı.
 - **Kalan:** `v0.1.0` etiketi henüz oluşturulmadı; applicationId çakışması çözülmeden kalıcı mağaza etiketi aceleye getirilmemelidir.
+
+## 2026-07-13 — Çok dilli README terim tercihi
+
+- **Kullanıcı talebi:** Sekiz README'de genel amaçlı üretim fiilinin İngilizce/Türkçe ve her dildeki doğrudan karşılıkları kullanılmayacak.
+- **Uygulama:** İfadeler bağlama göre çıktı üretme, sonuca yol açma, etiket ekleme, hazırlama veya yapılandırma anlamındaki daha kesin fiillerle değiştirildi; teknik davranış ve ciddi ton korunmuştur.
+- **Doğrulama:** Sekiz README; İngilizce ve Türkçe köklerin yanı sıra Almanca, Fransızca, Portekizce, Rusça, Çince ve Arapça doğrudan karşılıkları için tarandı. Dil navigasyonu ve UTF-8 içerik korunmalıdır.

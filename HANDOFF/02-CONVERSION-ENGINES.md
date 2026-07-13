@@ -23,7 +23,7 @@ Android karşılığı: `PdfRenderer` ile yalnız seçilen sayfaları kontrollü
 
 ## Eski koddaki teknik riskler
 
-- PDF→PPTX tüm sayfaları topluca görsele çevirir; büyük belgelerde bellek baskısı yaratır.
+- PDF→PPTX tüm sayfaları topluca görsele çevirir; büyük belgelerde bellek baskısına yol açar.
 - İlk sunum varsayılan boş slaytla oluşturulabildiğinden gereksiz ilk slayt riski vardır.
 - Yalnız dosya uzantısını `replace` ile değiştirir; büyük harf/çakışan ad/yanlış uzantı güvenli değildir.
 - Geçici dosya ve harici işlem temizliği tüm hata yollarında garanti edilmez.

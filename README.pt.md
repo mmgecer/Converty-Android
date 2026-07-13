@@ -67,7 +67,7 @@ O histórico e as definições são guardados localmente com Room e DataStore e 
 
 ## Limitações conhecidas
 
-- PDF para PPTX cria diapositivos baseados em imagens, não objetos PowerPoint editáveis.
+- PDF para PPTX produz diapositivos baseados em imagens, não objetos PowerPoint editáveis.
 - PPTX para PDF não substitui Microsoft PowerPoint, LibreOffice ou um motor OOXML completo. SmartArt, gráficos, tabelas, grupos, multimédia, animações, modelos, tipos de letra e efeitos avançados podem estar incompletos.
 - DOCX, XLSX e OpenDocument utilizam um modelo local limitado e não garantem paginação e layout idênticos.
 - Ficheiros encriptados, danificados, excessivamente grandes ou maliciosos podem ser rejeitados.
@@ -115,7 +115,7 @@ A árvore de código-fonte está preparada para publicação no GitHub sob a Apa
 O APK assinado atual deve ser considerado um candidato a release local, não um pacote pronto para F-Droid. Antes de uma submissão ao F-Droid ou de uma publicação pública permanente, falta concluir:
 
 1. Substituir `com.converty.app` por um ID de aplicação permanente e globalmente único. Esse ID já é utilizado por uma aplicação não relacionada, pelo que a publicação causaria uma colisão de identidade.
-2. O ramo público `main` está publicado no [GitHub](https://github.com/mmgecer/Converty-Android). Falta criar e enviar a tag `v0.1.0` que corresponda exatamente ao código submetido.
+2. O ramo público `main` está publicado no [GitHub](https://github.com/mmgecer/Converty-Android). Falta definir e enviar a tag `v0.1.0` que corresponda exatamente ao código submetido.
 3. Adicionar os metadados de build do F-Droid, incluindo o mapeamento de versões e uma receita integralmente baseada no código-fonte.
 4. Recompilar a partir de um checkout Linux limpo num ambiente semelhante ao F-Droid e passar os testes de scanner e reprodutibilidade do F-Droid.
 5. Concluir a revisão final dos recursos e licenças das dependências e adicionar os avisos ou atribuições identificados.
