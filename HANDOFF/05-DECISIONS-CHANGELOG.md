@@ -201,4 +201,6 @@
 
 - **Kullanıcı talebi:** Önceki remote-belirsizliği nedeniyle ertelenen Git işlemi, kullanıcının açık “commit et” talebiyle yetkilendirildi.
 - **İşlem:** Yerel depo `main` dalında başlatıldı; `.gitignore` sonrasında signing secret'larının ignored olduğu doğrulanarak mevcut kaynak, README, Apache-2.0 lisans ve HANDOFF seti tek başlangıç commit'ine alındı.
-- **Sınır:** GitHub remote URL'si hâlâ yapılandırılmamıştır. Push ve `v0.1.0` etiketi, gerçek repo URL'si doğrulandıktan sonra ayrı ve non-destructive bir adım olmalıdır.
+- **GitHub birleştirmesi:** Public repo `https://github.com/mmgecer/Converty-Android.git` ve uzak `main` commit'i `2ec3ebe` salt okunur doğrulandı. Uzak başlangıç commit'i silinmedi; local `22f3990` ile `8c9b016` merge commit'inde birleştirilip `origin/main` dalına fast-forward push edildi.
+- **Kimlik doğrulama:** İlk push Windows'taki yanlış `SirCrownguard` hesabıyla 403 aldı; hiçbir remote değişiklik oluşmadı. Git Credential Manager cihaz akışıyla `mmgecer` yetkilendirildi ve ikinci push başarılı oldu. Token/parola hiçbir çıktıya veya dosyaya yazılmadı.
+- **Kalan:** `v0.1.0` etiketi henüz oluşturulmadı; applicationId çakışması çözülmeden kalıcı mağaza etiketi aceleye getirilmemelidir.

@@ -27,7 +27,7 @@ Her README'nin ilk bölümünde aynı sekiz dil sırası vardır; mevcut dil dü
 
 ## GitHub yayın durumu
 
-Kökte standart Apache License 2.0 metnini taşıyan `LICENSE` vardır. Kaynak bu lisansla GitHub'da açık kaynak olarak yayımlanabilir. Kullanıcının açık talebiyle yerel depo `main` dalında başlatıldı ve mevcut yayın-hazır kaynak bir başlangıç commit'ine alındı. Uzak `Converty-Android` repo URL'si bilinmediği için remote/push yapılmadı; sonraki AI gerçek URL'yi doğrulamadan push veya force işlemi yapmamalıdır.
+Kökte standart Apache License 2.0 metnini taşıyan `LICENSE` vardır. Kaynak `https://github.com/mmgecer/Converty-Android` üzerinde açık kaynak olarak yayımlandı. Kullanıcının açık talebiyle yerel `main` başlatıldı; GitHub'daki mevcut `2ec3ebe` başlangıç commit'i silinmeden `8c9b016` merge commit'iyle bağlandı ve tam kaynak `origin/main` dalına push edildi. Force-push yapılmadı; sonraki AI fetch etmeden uzak geçmiş varsaymamalıdır.
 
 Kamuya açılmadan önce ayrıca:
 
@@ -52,7 +52,7 @@ Kökteki `.gitignore`; `local.properties`, `.gradle`, `.kotlin`, tüm generated 
 Ana F-Droid deposu için şu an **hazır değil**. Apache-2.0 lisans, conditional signing ve FLOSS dependency tabanı uygun; kalan başlıca işler:
 
 - **Kritik kimlik çakışması:** `com.converty.app`, Google Play'de 10K+ indirmeli ilgisiz bir Converty e-ticaret uygulaması tarafından kullanılıyor. F-Droid farklı ve benzersiz Application ID ister; ilk public/F-Droid sürümünden önce kullanıcıya ait namespace seçilmelidir. Kullanıcının GitHub adı bilinmediği için otomatik paket değişikliği yapılmadı.
-- Public Git upstream, eksiksiz source, her resmî sürüm için tag (`v0.1.0`) ve F-Droid metadata'sında tam commit hash.
+- Public Git upstream ve eksiksiz `main` source artık vardır; her resmî sürüm için tag (`v0.1.0`) ve F-Droid metadata'sında tam commit hash hâlâ gerekir.
 - Anahtarsız temiz Linux/F-Droid build; `fdroid scanner`, `fdroid lint` ve izole `fdroid build` kanıtı. Windows production `assembleRelease` başarılıdır fakat bu F-Droid ortamı kanıtı değildir.
 - `fastlane/metadata/android/<locale>` altında kısa/uzun açıklama, ikon, ekran görüntüleri ve versionCode changelog'u.
 - `fdroiddata` metadata dosyası; lisans, source URL, issue tracker, build recipe, currentVersion/currentVersionCode ve gerekirse allowed signing key.

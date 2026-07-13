@@ -25,7 +25,7 @@ Zorunlu ana yetenekler:
 
 ## Çalışma protokolü
 
-- Kullanıcı 2026-07-13 yayın hazırlığı turunda önceki Git yasağını kaldırdı ve ardından yerel commit istedi. Depo `main` dalında başlatıldı; destructive komutlar (`reset --hard`, zorla checkout/clean vb.) çalıştırılmaz ve remote doğrulanmadan push/force yapılmaz.
+- Kullanıcı 2026-07-13 yayın hazırlığı turunda önceki Git yasağını kaldırdı; commit ve doğrulanmış GitHub push'una izin verdi. `origin`, `https://github.com/mmgecer/Converty-Android.git` adresidir. Destructive komutlar (`reset --hard`, zorla checkout/clean vb.) ve force-push çalıştırılmaz.
 - Planlı ilerlenir; aktif faz ve test durumu `06-VERIFICATION-ROADMAP.md` içinde tutulur.
 - Yeni karar veya önemli trade-off `05-DECISIONS-CHANGELOG.md` içine tarihli eklenir.
 - Kod görevi ve dosya haritası `01-ARCHITECTURE.md`; motor ayrıntıları `02-CONVERSION-ENGINES.md`; ekran/dil değişiklikleri `03-UX-M3E-I18N.md`; veri/dosya akışı `04-DATA-FILES-HISTORY.md` içinde güncellenir.

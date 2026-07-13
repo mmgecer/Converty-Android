@@ -4,7 +4,7 @@ Bu dosya projenin kalıcı ana devretme belgesidir. **Bu projede çalışan her 
 
 ## Değişmez çalışma kuralları
 
-- Bu proje mevcut Windows klasöründe çalışır. Kullanıcı 2026-07-13 tarihinde Git kullanımına ve ardından açıkça yerel commit oluşturmaya izin verdi. Destructive Git komutları yasaktır; remote URL doğrulanmadan push/force işlemi yapılmaz.
+- Bu proje mevcut Windows klasöründe çalışır. Kullanıcı 2026-07-13 tarihinde Git kullanımına, commit ve GitHub push'una açıkça izin verdi. `origin` doğrulanmış `https://github.com/mmgecer/Converty-Android.git` adresidir; destructive/force Git işlemleri yasaktır.
 - Kod keşfinde önce `codebase-memory-mcp` bilgi grafiği araçları kullanılır; metin/config araması veya yetersiz grafik sonucu dışında dosya taramasına dönülmez.
 - HANDOFF belgeleri ne yüzeysel ne de günlük dökümü kadar şişkin olmalıdır. Bir sonraki geliştiricinin neden-sonuç ilişkisini anlayacağı orta ayrıntı korunur.
 - Yeni veya değişen her önemli dosya için: görevi, değişiklik nedeni, önemli tasarım kararı, bilinen risk ve doğrulama sonucu ilgili alt belgede tutulur.
@@ -57,13 +57,13 @@ Bu dosya projenin kalıcı ana devretme belgesidir. **Bu projede çalışan her 
 - GitHub için İngilizce ana `README.md` ile Türkçe, Almanca, Basitleştirilmiş Çince, Arapça, Portekizce, Fransızca ve Rusça README dosyaları eklendi. Her dosya diğer yedi dile bağlanır; README'ler emojisiz, ciddi ve kaynak kodun gerçek format/sadakat sınırlarıyla uyumludur.
 - Kökte standart Apache-2.0 `LICENSE` vardır; release bağımlılık taramasında yalnız FLOSS AndroidX/Kotlin/kotlinx/Okio/Guava-listenablefuture/annotation aileleri bulundu, reklam/analytics/Firebase/GMS ve `INTERNET` izni yoktur. Kaynak GitHub'da Apache-2.0 olarak yayımlanabilir.
 - Ana F-Droid deposu için henüz hazır değildir. En kritik engel, `com.converty.app` kimliğinin Google Play'deki ilgisiz bir Converty uygulamasıyla çakışmasıdır. Ayrıca public Git remote/tag, fastlane + fdroiddata metadata, HEIC/AVIF test fixture provenance/scandelete kararı ve temiz Linux/F-Droid build/scanner kanıtı gerekir. Ayrıntı `HANDOFF/07-PUBLISHING.md` içindedir.
-- Kullanıcının açık isteğiyle yerel Git deposu `main` dalında başlatılıp mevcut yayın-hazır kaynak tek başlangıç commit'inde kaydedildi. Remote henüz yapılandırılmadı; push ve `v0.1.0` etiketi gerçek GitHub URL'si doğrulandıktan sonra yapılmalıdır.
+- Yerel `main` başlangıç commit'i `22f3990` oluşturuldu. GitHub'daki önceki `2ec3ebe` başlangıç commit'i silinmeden `8c9b016` merge commit'iyle geçmişe bağlandı ve tam kaynak `origin/main` dalına push edildi. Henüz `v0.1.0` etiketi oluşturulmadı.
 
 ## Hızlı başlangıç — sonraki yapay zekâ
 
 1. Bu indeksin tamamını oku.
 2. Görevinle ilişkili alt HANDOFF belgelerini oku.
 3. Dosya/fonksiyon keşfi için önce bilgi grafiğini kullan; yeni kodlardan sonra gerekirse indeksi tazele.
-4. Git kullanılırsa destructive komut çalıştırma; yerel `main` geçmişini koru ve gerçek GitHub URL'si doğrulanmadan push/force yapma.
+4. Git kullanılırsa destructive/force komut çalıştırma; `origin/main` geçmişini koru ve push öncesi fetch/status ile uzak değişiklikleri doğrula.
 5. Uygulamayı değiştir ve orantılı test et.
 6. Aynı çalışmada ilgili alt HANDOFF dosyalarını ve gerekiyorsa bu indeksin güncel durumunu güncelle.

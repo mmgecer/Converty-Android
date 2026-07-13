@@ -115,13 +115,13 @@ A árvore de código-fonte está preparada para publicação no GitHub sob a Apa
 O APK assinado atual deve ser considerado um candidato a release local, não um pacote pronto para F-Droid. Antes de uma submissão ao F-Droid ou de uma publicação pública permanente, falta concluir:
 
 1. Substituir `com.converty.app` por um ID de aplicação permanente e globalmente único. Esse ID já é utilizado por uma aplicação não relacionada, pelo que a publicação causaria uma colisão de identidade.
-2. O histórico local de `main` e o commit inicial já existem. Falta configurar o GitHub remote pretendido, fazer push de `main` e criar e enviar a tag `v0.1.0` que corresponda exatamente ao código submetido.
+2. O ramo público `main` está publicado no [GitHub](https://github.com/mmgecer/Converty-Android). Falta criar e enviar a tag `v0.1.0` que corresponda exatamente ao código submetido.
 3. Adicionar os metadados de build do F-Droid, incluindo o mapeamento de versões e uma receita integralmente baseada no código-fonte.
 4. Recompilar a partir de um checkout Linux limpo num ambiente semelhante ao F-Droid e passar os testes de scanner e reprodutibilidade do F-Droid.
 5. Concluir a revisão final dos recursos e licenças das dependências e adicionar os avisos ou atribuições identificados.
 6. Aumentar `versionCode` em cada publicação e disponibilizar notas de versão, checksums, capturas de ecrã, declaração de privacidade e um canal de suporte ou issues.
 
-A licença Apache-2.0 e a assinatura production local estão resolvidas. A colisão do ID da aplicação, o GitHub remote e push com a tag `v0.1.0`, os metadados F-Droid e a verificação de build limpa em Linux/F-Droid com scanner continuam a bloquear a submissão.
+A licença Apache-2.0, a assinatura production local e a publicação de `main` estão resolvidas. A colisão do ID da aplicação, a release tag `v0.1.0`, os metadados F-Droid e a verificação de build limpa em Linux/F-Droid com scanner continuam a bloquear a submissão.
 
 ## Licença
 
