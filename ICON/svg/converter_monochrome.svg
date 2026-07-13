@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 108 108">
+  <!-- One-color alpha mask for Android themed launcher icons. -->
+  <g fill="none" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M30 20H68L86 38V80C86 85 83 88 78 88H30C25 88 22 85 22 80V28C22 23 25 20 30 20Z"
+          stroke-width="5"/>
+    <path d="M68 21V31C68 35 71 38 75 38H85" stroke-width="4"/>
+    <path d="M57 28C63 36 52 45 58 55C64 65 59 75 51 85" stroke-width="5"/>
+  </g>
+  <g fill="#FFFFFF">
+    <rect x="30" y="39" width="24" height="4.5" rx="2.25"/>
+    <rect x="30" y="51" width="21" height="4.5" rx="2.25"/>
+    <rect x="30" y="63" width="16" height="4.5" rx="2.25"/>
+    <rect x="63" y="42" width="10" height="10" rx="3"/>
+    <rect x="76" y="42" width="10" height="10" rx="3"/>
+    <rect x="63" y="57" width="10" height="10" rx="3"/>
+    <rect x="76" y="57" width="10" height="10" rx="3"/>
+  </g>
+</svg>

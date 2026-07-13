@@ -1,0 +1,93 @@
+# Material 3 Expressive for Android
+
+Use these resources when building Material 3 Expressive interfaces for Android.
+
+## Official references
+
+- Material 3 Expressive
+  https://m3.material.io/
+
+- Material 3 Expressive in Jetpack Compose
+  https://developer.android.com/develop/ui/compose/designsystems/material3
+
+- Compose Material 3 API reference
+  https://developer.android.com/reference/kotlin/androidx/compose/material3/package-summary
+
+- Compose Material 3 release notes
+  https://developer.android.com/jetpack/androidx/releases/compose-material3
+
+- Material 3 Expressive experimental API
+  https://developer.android.com/reference/kotlin/androidx/compose/material3/ExperimentalMaterial3ExpressiveApi
+
+## Official Android implementation
+
+Material 3 Expressive is officially implemented by Google in Jetpack Compose Material 3.
+
+Artifact:
+
+- `androidx.compose.material3:material3`
+
+For the newest Expressive APIs, use the current alpha version listed in the official release notes:
+
+```kotlin
+implementation("androidx.compose.material3:material3:<latest-alpha>")
+```
+
+Important status note:
+Some Expressive APIs are stable, while newer APIs are still experimental or available only in alpha releases. APIs annotated with `ExperimentalMaterial3ExpressiveApi` may change or be removed.
+
+Common Expressive APIs include:
+
+- `MaterialExpressiveTheme`
+- `MotionScheme`
+- `MaterialShapes`
+- expressive button and icon-button variants
+- button groups
+- floating action button menus and floating toolbars
+- expressive navigation and app bars
+- wavy progress indicators
+- carousels and shape-morphing components
+
+Always verify the exact API name, parameters, annotation, and required library version before generating code.
+
+## Wear OS
+
+For Wear OS, use the dedicated Wear Compose Material 3 library:
+
+- Wear Material 3 Expressive guidance
+  https://developer.android.com/design/ui/wear/guides/get-started/apply
+
+- Wear Compose Material 3 releases
+  https://developer.android.com/jetpack/androidx/releases/wear-compose-m3
+
+Do not use phone/tablet Material 3 APIs as a replacement for Wear-specific components.
+
+## Android Views
+
+Material 3 Expressive is Compose-first. The legacy Views library does not provide the full official Expressive component set:
+
+- Material Components for Android
+  https://github.com/material-components/material-components-android
+
+For new interfaces, prefer Kotlin and Jetpack Compose. Use Views only when maintaining an existing XML-based project.
+
+## Recommended AI usage rule
+
+When generating Android code:
+
+1. Prefer Kotlin, Jetpack Compose, and `androidx.compose.material3:material3`.
+
+2. For Material 3 Expressive:
+   - Use official Compose APIs.
+   - Check the current Material 3 release notes.
+   - Add `@OptIn(ExperimentalMaterial3ExpressiveApi::class)` when required.
+   - Clearly mention alpha or experimental API usage.
+
+3. For production-stable code:
+   - Prefer stable Material 3 APIs.
+   - Use experimental Expressive APIs only when explicitly requested.
+   - Provide a stable fallback when an Expressive API is not production-ready.
+
+4. Do not invent composable names, imports, parameters, or Gradle versions.
+
+5. Preserve accessibility, dynamic color, edge-to-edge layouts, system insets, adaptive layouts, and minimum touch-target sizes.

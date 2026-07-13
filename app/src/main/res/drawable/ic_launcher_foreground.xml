@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <path
+        android:fillColor="@color/converter_icon_primary_container"
+        android:fillAlpha="0.62"
+        android:pathData="M18,32C23,18 41,14 55,18C69,12 91,22 92,40C99,54 88,67 92,82C81,94 63,91 51,94C37,91 17,96 14,78C8,64 18,50 18,32Z" />
+    <path
+        android:fillColor="@color/converter_icon_tertiary_container"
+        android:fillAlpha="0.22"
+        android:pathData="M64,17C78,15 95,27 94,43C100,58 91,74 95,86C83,95 69,92 59,88C67,76 67,59 61,48C56,37 58,25 64,17Z" />
+    <path
+        android:fillColor="@color/converter_icon_document"
+        android:pathData="M30,20H68L86,38V80C86,85 83,88 78,88H30C25,88 22,85 22,80V28C22,23 25,20 30,20Z" />
+    <group>
+        <clip-path android:pathData="M30,20H68L86,38V80C86,85 83,88 78,88H30C25,88 22,85 22,80V28C22,23 25,20 30,20Z" />
+        <path
+            android:fillColor="@color/converter_icon_secondary_container"
+            android:pathData="M56,18H90V91H48C57,79 63,67 57,56C51,45 64,35 56,18Z" />
+        <path
+            android:fillColor="@color/converter_icon_tertiary_container"
+            android:fillAlpha="0.42"
+            android:pathData="M60,19H92V91H54C61,78 66,66 60,55C54,44 66,34 60,19Z" />
+    </group>
+    <path
+        android:fillColor="@color/converter_icon_fold"
+        android:pathData="M68,20V31C68,35 71,38 75,38H86L68,20Z" />
+    <path android:fillColor="@color/converter_icon_on_surface_variant"
+        android:pathData="M32.25,39H51.75A2.25,2.25 0,0 1,54,41.25A2.25,2.25 0,0 1,51.75,43.5H32.25A2.25,2.25 0,0 1,30,41.25A2.25,2.25 0,0 1,32.25,39Z" />
+    <path android:fillColor="@color/converter_icon_on_surface_variant"
+        android:pathData="M32.25,51H48.75A2.25,2.25 0,0 1,51,53.25A2.25,2.25 0,0 1,48.75,55.5H32.25A2.25,2.25 0,0 1,30,53.25A2.25,2.25 0,0 1,32.25,51Z" />
+    <path android:fillColor="@color/converter_icon_on_surface_variant"
+        android:pathData="M32.25,63H43.75A2.25,2.25 0,0 1,46,65.25A2.25,2.25 0,0 1,43.75,67.5H32.25A2.25,2.25 0,0 1,30,65.25A2.25,2.25 0,0 1,32.25,63Z" />
+    <path android:fillColor="@color/converter_icon_primary"
+        android:pathData="M66,42H70A3,3 0,0 1,73,45V49A3,3 0,0 1,70,52H66A3,3 0,0 1,63,49V45A3,3 0,0 1,66,42Z" />
+    <path android:fillColor="@color/converter_icon_tertiary"
+        android:pathData="M79,42H83A3,3 0,0 1,86,45V49A3,3 0,0 1,83,52H79A3,3 0,0 1,76,49V45A3,3 0,0 1,79,42Z" />
+    <path android:fillColor="@color/converter_icon_tertiary"
+        android:pathData="M66,57H70A3,3 0,0 1,73,60V64A3,3 0,0 1,70,67H66A3,3 0,0 1,63,64V60A3,3 0,0 1,66,57Z" />
+    <path android:fillColor="@color/converter_icon_primary"
+        android:pathData="M79,57H83A3,3 0,0 1,86,60V64A3,3 0,0 1,83,67H79A3,3 0,0 1,76,64V60A3,3 0,0 1,79,57Z" />
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="@color/converter_icon_primary"
+        android:strokeWidth="5.5"
+        android:strokeLineCap="round"
+        android:pathData="M57,27C63,36 52,45 58,55C64,65 59,75 51,86" />
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="@color/converter_icon_tertiary"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round"
+        android:pathData="M58.7,55C64.3,64 60,73 54,81" />
+</vector>

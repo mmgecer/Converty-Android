@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+  width="1080" height="1080" viewBox="0 0 108 108"
+  role="img" aria-labelledby="title desc">
+  <title id="title">Material 3 Expressive file converter icon</title>
+  <desc id="desc">A single document morphs from text lines into rounded data tiles.</desc>
+
+  <defs>
+    <clipPath id="documentClip">
+      <path d="M30 20H68L86 38V80C86 85 83 88 78 88H30C25 88 22 85 22 80V28C22 23 25 20 30 20Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- Android adaptive icons are masked by the launcher. Keep this background full bleed. -->
+  <g inkscape:groupmode="layer" inkscape:label="01 Background" id="background-layer">
+    <path d="M0 0H108V108H0Z" fill="#1D1B20" data-color-role="surface"/>
+    <path d="M0 0H108V108H0Z" fill="#25232A" fill-opacity=".36"
+          data-color-role="surfaceContainer"/>
+  </g>
+
+  <g inkscape:groupmode="layer" inkscape:label="02 Expressive tonal shapes" id="tonal-shapes-layer">
+    <path d="M18 32C23 18 41 14 55 18C69 12 91 22 92 40C99 54 88 67 92 82C81 94 63 91 51 94C37 91 17 96 14 78C8 64 18 50 18 32Z"
+          fill="#4F378B" fill-opacity=".62" data-color-role="primaryContainer"/>
+    <path d="M64 17C78 15 95 27 94 43C100 58 91 74 95 86C83 95 69 92 59 88C67 76 67 59 61 48C56 37 58 25 64 17Z"
+          fill="#B7F1EC" fill-opacity=".22" data-color-role="tertiaryContainer"/>
+  </g>
+
+  <g inkscape:groupmode="layer" inkscape:label="03 Document surface" id="document-layer">
+    <path d="M30 20H68L86 38V80C86 85 83 88 78 88H30C25 88 22 85 22 80V28C22 23 25 20 30 20Z"
+          fill="#F7F2FA" data-color-role="surfaceContainerLowest"/>
+    <g clip-path="url(#documentClip)">
+      <path d="M56 18H90V91H48C57 79 63 67 57 56C51 45 64 35 56 18Z"
+            fill="#E8DEF8" data-color-role="secondaryContainer"/>
+      <path d="M60 19H92V91H54C61 78 66 66 60 55C54 44 66 34 60 19Z"
+            fill="#B7F1EC" fill-opacity=".42" data-color-role="tertiaryContainer"/>
+    </g>
+    <path d="M68 20V31C68 35 71 38 75 38H86L68 20Z"
+          fill="#D0BCFF" data-color-role="primaryContainer"/>
+  </g>
+
+  <g inkscape:groupmode="layer" inkscape:label="04 Text input" id="text-layer"
+     fill="#49454F" data-color-role="onSurfaceVariant">
+    <rect x="30" y="39" width="24" height="4.5" rx="2.25"/>
+    <rect x="30" y="51" width="21" height="4.5" rx="2.25"/>
+    <rect x="30" y="63" width="16" height="4.5" rx="2.25"/>
+  </g>
+
+  <g inkscape:groupmode="layer" inkscape:label="05 Converted tiles" id="tiles-layer">
+    <rect x="63" y="42" width="10" height="10" rx="3" fill="#7C4DFF" data-color-role="primary"/>
+    <rect x="76" y="42" width="10" height="10" rx="3" fill="#00A7A0" data-color-role="tertiary"/>
+    <rect x="63" y="57" width="10" height="10" rx="3" fill="#00A7A0" data-color-role="tertiary"/>
+    <rect x="76" y="57" width="10" height="10" rx="3" fill="#7C4DFF" data-color-role="primary"/>
+  </g>
+
+  <g inkscape:groupmode="layer" inkscape:label="06 Morph seam" id="morph-layer">
+    <path d="M57 27C63 36 52 45 58 55C64 65 59 75 51 86"
+          fill="none" stroke="#7C4DFF" stroke-width="5.5"
+          stroke-linecap="round" data-color-role="primary"/>
+    <path d="M58.7 55C64.3 64 60 73 54 81"
+          fill="none" stroke="#00A7A0" stroke-width="2.2"
+          stroke-linecap="round" data-color-role="tertiary"/>
+  </g>
+</svg>

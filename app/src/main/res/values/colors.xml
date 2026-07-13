@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="converty_seed">#465D91</color>
+    <color name="converty_light_surface">#F9F9FF</color>
+    <color name="converty_dark_surface">#111318</color>
+
+    <!-- Static launcher colors: adaptive icons cannot read the runtime Compose scheme. -->
+    <color name="converter_icon_surface">#1D1B20</color>
+    <color name="converter_icon_surface_container">#25232A</color>
+    <color name="converter_icon_primary">#7C4DFF</color>
+    <color name="converter_icon_primary_container">#4F378B</color>
+    <color name="converter_icon_secondary_container">#E8DEF8</color>
+    <color name="converter_icon_tertiary">#00A7A0</color>
+    <color name="converter_icon_tertiary_container">#B7F1EC</color>
+    <color name="converter_icon_document">#F7F2FA</color>
+    <color name="converter_icon_on_surface_variant">#49454F</color>
+    <color name="converter_icon_fold">#D0BCFF</color>
+</resources>
